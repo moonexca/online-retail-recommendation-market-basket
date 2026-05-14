@@ -1,0 +1,25 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+*.bak
+*.swp
+*.log
+.DS_Store
+Thumbs.db
+
+# Large or local-only artifacts
+*.pkl
+*.zip
+*.rar
+
+# Raw or heavy data exports
+online_retail_II.csv
+online_retail_clean_UK_filtered.csv
+retail_rec.csv
+df_rec.csv
+df_rec_user_item.csv
+
+# Alternate notebook copies
+ML and VS.ipynb
