@@ -1,46 +1,32 @@
 # Recommendation Systems and Market Basket Analysis in Online Retail
 
-Academic machine learning and data-visualisation project by **Soledad Yash** analysing online retail transactions through recommendation systems, association rule mining, and dashboard-oriented business insights.
+Retail data has a way of appearing ordinary until one looks long enough. Then repetition begins to surface. Some products travel together. Some customers form habits that resemble signatures. Certain items do not merely sell; they attract one another. What looks like noise at the level of transaction becomes pattern at the level of sequence. This project was built to read that pattern.
 
-## Overview
+This repository contains an academic machine learning and data-visualisation project by **Soledad Yash** based on the **Online Retail II** dataset. It explores how transactional retail data can support recommendation logic, association rule mining, and practical business insight.
 
-This repository contains a historical academic project based on the **Online Retail II** transactional dataset. The work explores how customer-product interactions can be transformed into practical analytical outputs for retail decision making.
+## What this project does
 
-The project combines:
+The work moves through the retail dataset in stages:
+
+- it cleans transactions and removes invalid or misleading records
+- it restructures purchase information into recommendation-ready forms
+- it studies customer-product interaction through collaborative filtering logic
+- it applies **Apriori** and **FP-Growth** to identify repeated product associations
+- it translates those outputs into business-facing interpretation
+
+The project is less interested in technical display for its own sake than in the small intelligence hidden in repeated behaviour.
+
+## Main analytical components
 
 - transaction cleaning and restructuring
 - recommendation-system logic
 - collaborative filtering concepts
 - market basket analysis
-- **Apriori** and **FP-Growth**
+- **Apriori**
+- **FP-Growth**
 - dashboard-oriented business interpretation
 
-The overall goal is to show how retail transaction data can support product recommendation, cross-selling, merchandising, and customer-behaviour insight.
-
-## Project Goals
-
-The analysis focuses on:
-
-- understanding repeated purchase behaviour in transactional retail data
-- building user-item logic for recommendation use cases
-- identifying frequent itemsets and association rules
-- comparing Apriori and FP-Growth in an applied setting
-- translating results into business-facing visual and strategic insights
-
-## Methods
-
-The project includes:
-
-- cleaning of retail transactions
-- exclusion of refunds, invalid rows, and non-product noise
-- transformation into recommendation-ready interaction structures
-- collaborative filtering concepts using item and user similarity
-- association rule mining using:
-  - **Apriori**
-  - **FP-Growth**
-- visualisation and dashboard-oriented summarisation
-
-## Repository Contents
+## Repository contents
 
 - [ML_DV.ipynb](./ML_DV.ipynb): main notebook selected for portfolio presentation
 - [Report_ML_DVZ.odt](./Report_ML_DVZ.odt): written report
@@ -62,56 +48,54 @@ The notebook uses Python packages including:
 
 See [requirements.txt](./requirements.txt) for a compact environment list.
 
-## Data and Storage Notes
+## Data and storage notes
 
 This portfolio version intentionally excludes several very large intermediate or binary artifacts from public publication, including:
 
 - full raw retail data files
-- similarity matrices in `.pkl` format
-- compressed archive duplicates
+- similarity matrices stored as `.pkl`
+- compressed duplicate archives
 - notebook checkpoints
 - redundant notebook variants
 
-This keeps the repository practical for GitHub while preserving the core academic deliverables.
+This keeps the repository readable, lighter, and more realistic for public review.
 
 See [DATASET_AND_STORAGE_NOTES.md](./DATASET_AND_STORAGE_NOTES.md) for more detail.
 
-## Reproducibility Notes
+## Why it matters
+
+This project reflects a set of interests that recur in my work:
+
+- customer behaviour seen through structure rather than anecdote
+- machine learning used in commercial settings without losing interpretability
+- pattern detection as a basis for better decisions
+- analytics that can move from data preparation to business narrative
+
+## Reproducibility notes
 
 - This repository is published as a **historical academic project**.
 - It has been cleaned for portfolio use and reduced to the core files most relevant for review.
-- The notebook reflects an assignment-era workflow rather than a production-grade package.
-- Some outputs and modelling choices should be interpreted in the context of coursework constraints and the original dataset size.
+- The notebook reflects an assignment-era workflow rather than a production package.
 
-## Academic and IP Statement
+## Academic and IP statement
 
-This repository contains academic work authored by **Soledad Yash** and is published for portfolio and research-communication purposes.
+This repository contains academic work authored by **Soledad Yash** and is published for portfolio and research communication.
 
 - The modelling, interpretation, and project structure are presented as the author's academic work.
 - The underlying dataset and any external sources remain subject to their original ownership and usage conditions.
-- Mention of the academic institution provides context only and does not imply endorsement.
+- The academic context is acknowledged for transparency only and does not imply endorsement.
 
 See [ACADEMIC_USE_AND_IP.md](./ACADEMIC_USE_AND_IP.md) for the extended statement.
 
-## AI Use Disclosure
+## AI use disclosure
 
 AI-assisted support may have been used in limited surrounding tasks such as wording refinement, structural editing support, or explanation assistance. Final responsibility for validation, interpretation, and publication remains with **Soledad Yash**.
 
 See [AI_USE_DISCLOSURE.md](./AI_USE_DISCLOSURE.md) for a fuller note on limitations, responsible use, and security awareness.
-
-## Portfolio Relevance
-
-This project supports a portfolio narrative around:
-
-- data analytics
-- recommendation systems
-- customer behaviour analysis
-- retail machine learning
-- dashboard-oriented business communication
 
 ## Author
 
 **Soledad Yash**  
 Dublin, Ireland  
 [LinkedIn](https://www.linkedin.com/in/soledad-yash)  
-[GitHub](https://github.com/asolyash)
+[GitHub](https://github.com/moonexca)
