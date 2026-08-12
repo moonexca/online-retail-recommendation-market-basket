@@ -1,0 +1,2 @@
+clean_transactions,train_transactions,holdout_transactions,holdout_rule
+724451,612707,80283,last invoice per customer
