@@ -26,3 +26,15 @@ The original working folder contained several large files that are not ideal for
 - to make the project easier for recruiters or reviewers to navigate
 
 If needed later, a fuller archival version can be kept privately outside the public GitHub repository.
+
+## Reproducible retrieval
+
+The source workbook can be downloaded directly from the official UCI Machine
+Learning Repository:
+
+```bash
+python scripts/download_data.py
+```
+
+Use `--write-csv` to generate the filename expected by the historical notebook.
+Downloaded files remain ignored by Git.
